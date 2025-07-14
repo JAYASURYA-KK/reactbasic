@@ -1,0 +1,47 @@
+header {
+  position: relative;
+  padding: 1.5rem 1rem;
+  background-color: #000;
+  color: #0f0;
+  border: 2px solid #0f0;
+  border-radius: 10px;
+  text-shadow: 0 0 5px #0f0;
+  margin-bottom: 1rem;
+}
+
+.header-container {
+  text-align: center;
+  position: relative;
+}
+
+.text {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-weight: 200;
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* 🔁 Buttons in top-right */
+.auth-buttons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.auth-btn {
+  background-color: #0f0;
+  color: #000;
+  border: none;
+  padding: 0.4rem 0.9rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #0f0;
+  transition: background 0.3s ease;
+}
+
+.auth-btn:hover {
+  background-color: #55ff55;
+}

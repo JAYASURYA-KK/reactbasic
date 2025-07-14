@@ -1,6 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
-import Image from './assets/glass.glb';
+
 
 function Model() {
   const { scene } = useGLTF(Image);

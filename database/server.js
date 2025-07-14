@@ -1,14 +1,14 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-require('dotenv').config();
+
 
 const app = express();
 app.use(express.json());
 app.use(cors());
 
 // ✅ Correct MongoDB Connection String
-mongoose.connect(process.env.MONGO_URL, {
+mongoose.connect('mongodb+srv://surya:surya%402007@cluster0.vdqnm6e.mongodb.net/mydb?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {

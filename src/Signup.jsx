@@ -36,7 +36,7 @@ const Signup = () => {
     }
 
     try {
-      const res = await fetch('https://backend-x7q3.onrender.com/users', {
+      const res = await fetch('https://localhost:3002/users', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),

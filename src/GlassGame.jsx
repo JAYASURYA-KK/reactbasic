@@ -31,10 +31,7 @@ const GlassGame = () => {
   };
 
   const handleClick = (row, side) => {
-    if (!location.state) {
-      alert("Please login first!");
-      navigate('/login');
-    }
+
 
     if (row !== currentRow || gameStatus !== "playing") return;
 

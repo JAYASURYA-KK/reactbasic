@@ -16,7 +16,7 @@ const Login = () => {
   const handleLogin = async () => {
     try {
       // Changed to GET request to fetch users and verify credentials
-      const res = await fetch('https://localhost:3002/users', {
+      const res = await fetch('https://backend-x7q3.onrender.com//users', {
         method: 'GET',
         headers: { 'Content-Type': 'application/json' }
       });

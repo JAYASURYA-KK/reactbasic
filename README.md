@@ -1,7 +1,7 @@
 # React Basic Project
 
 This is my first simple **React.js** project with a basic **Backend (Express.js)** setup and **MongoDB** connection.  
-✅ Live Demo → [reactbasic-beta.vercel.app](https://reactbasic-beta.vercel.app/)  
+✅ Live Demo → [reactbasic-eight.vercel.app](https://reactbasic-eight.vercel.app/ )  
 ✅ GitHub → [github.com/JAYASURYA-KK/reactbasic](https://github.com/JAYASURYA-KK/reactbasic)
 
 ---
@@ -103,7 +103,7 @@ Your app will run on [http://localhost:3000](http://localhost:3000)
 
 ## 🖥️ Live Demo
 
-Check Live Website → [https://reactbasic-beta.vercel.app/](https://reactbasic-beta.vercel.app/)
+Check Live Website → [https://reactbasic-eight.vercel.app/](https://reactbasic-eight.vercel.app/)
 
 ---
 

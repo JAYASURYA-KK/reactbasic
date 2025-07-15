@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# React Basic Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my first simple **React.js** project with a basic **Backend (Express.js)** setup and **MongoDB** connection.  
+✅ Live Demo → [reactbasic-beta.vercel.app](https://reactbasic-beta.vercel.app/)  
+✅ GitHub → [github.com/JAYASURYA-KK/reactbasic](https://github.com/JAYASURYA-KK/reactbasic)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📸 Project Screenshots
 
-### `npm start`
+### 🏠 Home Page
+![Home](./screenshot/home.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🔐 Login Page
+![Login](./screenshot/login.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📝 Signup Page
+![Signup](./screenshot/signup.png)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Project Features
 
-### `npm run build`
+- Simple **React.js** frontend
+- **Express.js** backend API setup
+- **MongoDB Atlas** or **Local MongoDB** database connection
+- User **Signup** and **Login** forms
+- Clean UI with basic routing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📂 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+reactbasic/
+│
+├── backend/           # Express Backend API
+│   ├── .env           # MongoDB Connection String
+│   ├── server.js      # Main backend server file
+│   └── ...other files
+│
+├── public/
+├── src/               # React Frontend Code
+│   ├── components/
+│   ├── App.js
+│   └── ...
+│
+└── screenshot/        # Project UI Screenshots
+    ├── home.png
+    ├── login.png
+    └── signup.png
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚙️ Backend Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1. Navigate to backend folder:
+```bash
+cd backend
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Install dependencies:
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. Create `.env` file inside `backend/` folder:
+```
+MONGO_URL=your_mongodb_connection_link
+```
+- Example for MongoDB Atlas:
+```
+MONGO_URL=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
+```
+- Example for local MongoDB:
+```
+MONGO_URL=mongodb://127.0.0.1:27017/yourdatabasename
+```
 
-## Learn More
+### 4. Start Backend Server:
+```bash
+node server.js
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Frontend Setup
 
-### Code Splitting
+### 1. Install frontend dependencies:
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 2. Start React Frontend:
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+Your app will run on [http://localhost:3000](http://localhost:3000)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🖥️ Live Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Check Live Website → [https://reactbasic-beta.vercel.app/](https://reactbasic-beta.vercel.app/)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ✅ Author
 
-### Deployment
+Created by [JAYASURYA-KK](https://github.com/JAYASURYA-KK)  
+❤️ First simple React + Node.js + MongoDB project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📌 Note
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can replace `.env` `MONGO_URL` with your own **MongoDB Atlas** or **Local MongoDB** connection string.
+
+---
